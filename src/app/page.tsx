@@ -155,7 +155,7 @@ export default function HomePage() {
           </div>
           <div className="flex justify-center">
             <button
-              className="mt-4 rounded bg-[#ABBBB4]/70 px-4 py-2 font-bold text-white hover:bg-[#ABBBB4]"
+              className="mt-4 rounded bg-[#DAA520]/70 px-4 py-2 font-bold text-white hover:bg-[#DAA520]"
               type="submit"
             >
               Submit

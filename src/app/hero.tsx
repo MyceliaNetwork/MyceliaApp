@@ -23,7 +23,7 @@ export default function Hero() {
             Development the easy way...
           </p>
           <button
-            className="mt-4 rounded bg-[#ABBBB4]/70 px-4 py-2 font-bold text-white hover:bg-[#ABBBB4]"
+            className="mt-4 rounded bg-[#DAA520]/70 px-4 py-2 font-bold text-white hover:bg-[#DAA520]"
             onClick={handleScroll}
           >
             Contact us!
