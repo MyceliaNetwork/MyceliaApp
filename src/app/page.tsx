@@ -1,6 +1,7 @@
 import Link from "next/link";
 
-import Hero from "./hero";
+import { Hero } from "./hero";
+import { ContactForm } from "./contact-form";
 
 export default function HomePage() {
   return (
@@ -15,11 +16,11 @@ export default function HomePage() {
               width="48"
               height="48"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M6.657 16c-2.572 0 -4.657 -2.007 -4.657 -4.483c0 -2.475 2.085 -4.482 4.657 -4.482c.393 -1.762 1.794 -3.2 3.675 -3.773c1.88 -.572 3.956 -.193 5.444 1c1.488 1.19 2.162 3.007 1.77 4.769h.99c1.913 0 3.464 1.56 3.464 3.486c0 1.927 -1.551 3.487 -3.465 3.487h-11.878"></path>
@@ -43,11 +44,11 @@ export default function HomePage() {
               width="48"
               height="48"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M17 15.328c2.414 -.718 4 -1.94 4 -3.328c0 -2.21 -4.03 -4 -9 -4s-9 1.79 -9 4s4.03 4 9 4"></path>
@@ -68,11 +69,11 @@ export default function HomePage() {
               width="48"
               height="48"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M4 6c0 1.657 3.582 3 8 3s8 -1.343 8 -3s-3.582 -3 -8 -3s-8 1.343 -8 3"></path>
@@ -97,11 +98,11 @@ export default function HomePage() {
               width="48"
               height="48"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M12 20m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
@@ -123,45 +124,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        <form className="mx-auto mt-10 w-full max-w-md">
-          <div className="-mx-3 mb-6 flex flex-col">
-            <div className="mb-6 w-full px-3 md:mb-0">
-              <label
-                className="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700"
-                htmlFor="email"
-              >
-                Email
-              </label>
-              <input
-                className="mb-3 block w-full appearance-none rounded border bg-gray-200 px-4 py-3 leading-tight text-gray-700 focus:bg-white focus:outline-none"
-                id="email"
-                type="email"
-                placeholder="Your email"
-              />
-            </div>
-            <div className="w-full px-3">
-              <label
-                className="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700"
-                htmlFor="question"
-              >
-                Question
-              </label>
-              <textarea
-                className="block w-full appearance-none rounded border border-gray-200 bg-gray-200 px-4 py-3 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none"
-                id="question"
-                placeholder="Your question..."
-              ></textarea>
-            </div>
-          </div>
-          <div className="flex justify-center">
-            <button
-              className="mt-4 rounded bg-[#DAA520]/70 px-4 py-2 font-bold text-white hover:bg-[#DAA520]"
-              type="submit"
-            >
-              Submit
-            </button>
-          </div>
-        </form>
+        <ContactForm />
       </div>
     </main>
   );

@@ -1,5 +1,5 @@
 "use client";
-export default function Hero() {
+export const Hero = () => {
   function handleScroll() {
     window.scroll({
       top: document.body.offsetHeight,
@@ -32,4 +32,4 @@ export default function Hero() {
       </div>
     </div>
   );
-}
+};
