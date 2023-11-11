@@ -23,7 +23,7 @@ export const Hero = () => {
             Development the easy way...
           </p>
           <button
-            className="mt-4 rounded bg-[#DAA520]/70 px-4 py-2 font-bold text-white hover:bg-[#DAA520]"
+            className="mt-4 rounded bg-[#DAA520]/70 px-4 py-2 font-bold text-white transition-colors duration-200 hover:bg-[#DAA520]"
             onClick={handleScroll}
           >
             Contact us!
