@@ -13,8 +13,8 @@ export default function HomePage() {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="text-gray-900/60 transition-colors duration-200 hover:text-gray-900/80"
-              width="48"
-              height="48"
+              width="36"
+              height="36"
               viewBox="0 0 24 24"
               strokeWidth="2"
               stroke="currentColor"
