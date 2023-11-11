@@ -40,6 +40,7 @@ export const ContactForm = () => {
           <textarea
             className="block w-full appearance-none rounded border border-gray-200 bg-gray-200 px-4 py-3 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none"
             id="question"
+            name="question"
             placeholder="Your question..."
           ></textarea>
           <ValidationError
