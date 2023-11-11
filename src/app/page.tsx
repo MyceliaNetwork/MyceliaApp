@@ -123,9 +123,9 @@ export default function HomePage() {
           </div>
         </div>
 
-        <form className="mx-auto mt-10 w-full max-w-lg">
-          <div className="-mx-3 mb-6 flex flex-wrap">
-            <div className="mb-6 w-full px-3 md:mb-0 md:w-1/2">
+        <form className="mx-auto mt-10 w-full max-w-md">
+          <div className="-mx-3 mb-6 flex flex-col">
+            <div className="mb-6 w-full px-3 md:mb-0">
               <label
                 className="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700"
                 htmlFor="email"
@@ -139,7 +139,7 @@ export default function HomePage() {
                 placeholder="Your email"
               />
             </div>
-            <div className="w-full px-3 md:w-1/2">
+            <div className="w-full px-3">
               <label
                 className="mb-2 block text-xs font-bold uppercase tracking-wide text-gray-700"
                 htmlFor="question"
